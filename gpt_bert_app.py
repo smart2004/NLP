@@ -5,8 +5,8 @@
 # pip install transformers datasets torch
 
 # 2. Импорт необходимых модулей
-import torch from transformers
-import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments 
+import torch 
+from transformer import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments 
 from datasets import load_dataset, load_metric
 
 # 3. Загрузка и подготовка данных Для примера возьмем датасет IMDb (отзывов о фильмах для задачи классификации).
